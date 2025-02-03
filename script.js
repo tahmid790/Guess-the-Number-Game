@@ -19,11 +19,11 @@ function checkGuess() {
         } else if (userGuess < randomNumber) {
             attempts--;
             message.textContent = `Too low! Try again. (${attempts} guesses left)`;
-            message.style.color = "blue";
+            message.style.color = "#20c997"; /* Teal color */
         } else if (userGuess > randomNumber) {
             attempts--;
             message.textContent = `Too high! Try again. (${attempts} guesses left)`;
-            message.style.color = "blue";
+            message.style.color = "#20c997"; /* Teal color */
         } else {
             message.textContent = `🎉 Congratulations! You guessed the number ${randomNumber}!`;
             message.style.color = "green";

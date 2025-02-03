@@ -1,33 +1,42 @@
+/* Dark Navy Blue Theme */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #0d1117; /* GitHub dark mode background */
+    color: #c9d1d9; /* Light gray text */
 }
 
 .container {
-    background: white;
+    background: #161b22; /* Dark navy container */
     padding: 20px;
     margin: 50px auto;
     width: 300px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    border: 1px solid #30363d; /* Subtle border */
 }
 
 input {
     padding: 5px;
     width: 50px;
     text-align: center;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    border-radius: 5px;
 }
 
 button {
     padding: 5px 10px;
-    background: #28a745;
+    background: #238636; /* GitHub green */
     color: white;
     border: none;
     cursor: pointer;
     margin-left: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
 button:hover {
-    background: #218838;
+    background: #2ea043;
 }
